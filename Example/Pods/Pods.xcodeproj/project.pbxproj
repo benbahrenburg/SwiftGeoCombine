@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		05C7CA806A93930B663DCBA629E52522 /* SwiftGeoCombine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A476E553C48E7D688097B0D37A086 /* SwiftGeoCombine-dummy.m */; };
 		0EB11802F5BA438125A6F85EC7C4EFB7 /* Pods-SwiftGeoCombine_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0AB4B1FAFF8394F25846DCDC7B25B2 /* Pods-SwiftGeoCombine_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E158B482354218600A042A9 /* GeoReverseLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E158B472354218600A042A9 /* GeoReverseLookup.swift */; };
+		3E158B482354218600A042A9 /* GeoReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E158B472354218600A042A9 /* GeoReverse.swift */; };
 		3E158B4A235421AE00A042A9 /* RuntimeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E158B49235421AE00A042A9 /* RuntimeError.swift */; };
-		3E158B4C2354247D00A042A9 /* GeoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E158B4B2354247D00A042A9 /* GeoUtils.swift */; };
-		491C507CA1A7F62C37D5C645E2B6621A /* GeoCurrentLocationLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0768E7656AB1FE0C423FC1B59BD2568 /* GeoCurrentLocationLookup.swift */; };
+		3E158B4C2354247D00A042A9 /* GeoUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E158B4B2354247D00A042A9 /* GeoUtility.swift */; };
+		3E3725702354D896004B0611 /* GeoVisits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37256F2354D896004B0611 /* GeoVisits.swift */; };
+		3ECA4ED92354D3D900334DC4 /* GeoSingleShotCallbackHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA4ED82354D3D900334DC4 /* GeoSingleShotCallbackHelper.swift */; };
+		491C507CA1A7F62C37D5C645E2B6621A /* GeoCurrentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0768E7656AB1FE0C423FC1B59BD2568 /* GeoCurrentLocation.swift */; };
 		7327DE35F190DBADFF8C8F39CF8469C9 /* Pods-SwiftGeoCombine_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F07FE644385998D2CE1A0693BC97317 /* Pods-SwiftGeoCombine_Example-dummy.m */; };
 		85016E8685164C954F8E2F29C040FB55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9A1E08BBCA763864A8B5A7D71C3172EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -44,9 +46,11 @@
 		14374F49E3B64BBF510D8D83E4A7D8A1 /* Pods_SwiftGeoCombine_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGeoCombine_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3BF0EE195FE5F63ABBBFCF3EDA738433 /* SwiftGeoCombine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftGeoCombine.modulemap; sourceTree = "<group>"; };
-		3E158B472354218600A042A9 /* GeoReverseLookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeoReverseLookup.swift; path = SwiftGeoCombine/Classes/GeoReverseLookup.swift; sourceTree = "<group>"; };
+		3E158B472354218600A042A9 /* GeoReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeoReverse.swift; path = SwiftGeoCombine/Classes/GeoReverse.swift; sourceTree = "<group>"; };
 		3E158B49235421AE00A042A9 /* RuntimeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RuntimeError.swift; path = SwiftGeoCombine/Classes/RuntimeError.swift; sourceTree = "<group>"; };
-		3E158B4B2354247D00A042A9 /* GeoUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeoUtils.swift; path = SwiftGeoCombine/Classes/GeoUtils.swift; sourceTree = "<group>"; };
+		3E158B4B2354247D00A042A9 /* GeoUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeoUtility.swift; path = SwiftGeoCombine/Classes/GeoUtility.swift; sourceTree = "<group>"; };
+		3E37256F2354D896004B0611 /* GeoVisits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeoVisits.swift; path = SwiftGeoCombine/GeoVisits.swift; sourceTree = "<group>"; };
+		3ECA4ED82354D3D900334DC4 /* GeoSingleShotCallbackHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeoSingleShotCallbackHelper.swift; path = SwiftGeoCombine/Classes/GeoSingleShotCallbackHelper.swift; sourceTree = "<group>"; };
 		499F70C193BB61EA96ED00E993388263 /* Pods-SwiftGeoCombine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftGeoCombine_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		51266F25CC9C87A452C6A73E0721441A /* Pods-SwiftGeoCombine_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftGeoCombine_Tests-Info.plist"; sourceTree = "<group>"; };
 		5A179D5AD1003798D333A359D1A302FC /* SwiftGeoCombine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGeoCombine-umbrella.h"; sourceTree = "<group>"; };
@@ -68,7 +72,7 @@
 		B6306F8E57353087F37BC4405E5B859E /* Pods-SwiftGeoCombine_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftGeoCombine_Example.modulemap"; sourceTree = "<group>"; };
 		BB1EDDCCE23A0D531AD8A73A828E297D /* Pods-SwiftGeoCombine_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftGeoCombine_Example-Info.plist"; sourceTree = "<group>"; };
 		BDE884B1247E71833B0E33DC2D20879D /* SwiftGeoCombine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftGeoCombine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0768E7656AB1FE0C423FC1B59BD2568 /* GeoCurrentLocationLookup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeoCurrentLocationLookup.swift; path = SwiftGeoCombine/Classes/GeoCurrentLocationLookup.swift; sourceTree = "<group>"; };
+		C0768E7656AB1FE0C423FC1B59BD2568 /* GeoCurrentLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeoCurrentLocation.swift; path = SwiftGeoCombine/Classes/GeoCurrentLocation.swift; sourceTree = "<group>"; };
 		D472A658D4F75A1F5C7ABAC269E85DF9 /* Pods-SwiftGeoCombine_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftGeoCombine_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DDEDB29206CBFC1A72FF2859FBB27CBC /* Pods-SwiftGeoCombine_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftGeoCombine_Tests-dummy.m"; sourceTree = "<group>"; };
 		E0E3E4D10BCBB81D1DD3764CF993A06B /* Pods_SwiftGeoCombine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGeoCombine_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,10 +129,12 @@
 		839C04C3D9E635DAFCBD50058B4369C4 /* SwiftGeoCombine */ = {
 			isa = PBXGroup;
 			children = (
-				3E158B4B2354247D00A042A9 /* GeoUtils.swift */,
+				3ECA4ED82354D3D900334DC4 /* GeoSingleShotCallbackHelper.swift */,
+				3E158B4B2354247D00A042A9 /* GeoUtility.swift */,
 				3E158B49235421AE00A042A9 /* RuntimeError.swift */,
-				3E158B472354218600A042A9 /* GeoReverseLookup.swift */,
-				C0768E7656AB1FE0C423FC1B59BD2568 /* GeoCurrentLocationLookup.swift */,
+				3E158B472354218600A042A9 /* GeoReverse.swift */,
+				3E37256F2354D896004B0611 /* GeoVisits.swift */,
+				C0768E7656AB1FE0C423FC1B59BD2568 /* GeoCurrentLocation.swift */,
 				FCF2E5FE6F4D893A3497B75873FA156F /* Pod */,
 				C8C3EC27861F580D523C9EA6975D75F3 /* Support Files */,
 			);
@@ -390,11 +396,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E158B4C2354247D00A042A9 /* GeoUtils.swift in Sources */,
-				491C507CA1A7F62C37D5C645E2B6621A /* GeoCurrentLocationLookup.swift in Sources */,
-				3E158B482354218600A042A9 /* GeoReverseLookup.swift in Sources */,
+				3E158B4C2354247D00A042A9 /* GeoUtility.swift in Sources */,
+				491C507CA1A7F62C37D5C645E2B6621A /* GeoCurrentLocation.swift in Sources */,
+				3E158B482354218600A042A9 /* GeoReverse.swift in Sources */,
 				05C7CA806A93930B663DCBA629E52522 /* SwiftGeoCombine-dummy.m in Sources */,
+				3ECA4ED92354D3D900334DC4 /* GeoSingleShotCallbackHelper.swift in Sources */,
 				3E158B4A235421AE00A042A9 /* RuntimeError.swift in Sources */,
+				3E3725702354D896004B0611 /* GeoVisits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
