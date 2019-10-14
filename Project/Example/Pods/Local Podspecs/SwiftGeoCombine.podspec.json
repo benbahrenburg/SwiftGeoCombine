@@ -1,0 +1,22 @@
+{
+  "name": "SwiftGeoCombine",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftGeoCombine.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ben Bahrenburg/SwiftGeoCombine",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ben Bahrenburg": "ben.bahrenburg@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Ben Bahrenburg/SwiftGeoCombine.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftGeoCombine/Classes/**/*"
+}

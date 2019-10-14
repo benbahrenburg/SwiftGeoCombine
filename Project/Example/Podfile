@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftGeoCombine_Example' do
+  pod 'SwiftGeoCombine', :path => '../'
+
+  target 'SwiftGeoCombine_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

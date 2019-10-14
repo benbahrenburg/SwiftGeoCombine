@@ -1,0 +1,16 @@
+PODS:
+  - SwiftGeoCombine (0.1.0)
+
+DEPENDENCIES:
+  - SwiftGeoCombine (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftGeoCombine:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftGeoCombine: 051b51beabb534aef35b6ac15dfb7aff948037dc
+
+PODFILE CHECKSUM: b8534ddcb0328fdf95a12b8b29a81883ac051de8
+
+COCOAPODS: 1.8.0

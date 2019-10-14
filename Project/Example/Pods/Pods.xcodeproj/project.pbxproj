@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C7CA806A93930B663DCBA629E52522 /* SwiftGeoCombine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A476E553C48E7D688097B0D37A086 /* SwiftGeoCombine-dummy.m */; };
+		0EB11802F5BA438125A6F85EC7C4EFB7 /* Pods-SwiftGeoCombine_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0AB4B1FAFF8394F25846DCDC7B25B2 /* Pods-SwiftGeoCombine_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E158B482354218600A042A9 /* GeoReverseLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E158B472354218600A042A9 /* GeoReverseLookup.swift */; };
+		3E158B4A235421AE00A042A9 /* RuntimeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E158B49235421AE00A042A9 /* RuntimeError.swift */; };
+		3E158B4C2354247D00A042A9 /* GeoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E158B4B2354247D00A042A9 /* GeoUtils.swift */; };
+		491C507CA1A7F62C37D5C645E2B6621A /* GeoCurrentLocationLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0768E7656AB1FE0C423FC1B59BD2568 /* GeoCurrentLocationLookup.swift */; };
+		7327DE35F190DBADFF8C8F39CF8469C9 /* Pods-SwiftGeoCombine_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F07FE644385998D2CE1A0693BC97317 /* Pods-SwiftGeoCombine_Example-dummy.m */; };
+		85016E8685164C954F8E2F29C040FB55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9A1E08BBCA763864A8B5A7D71C3172EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B1D0B2B8553B516A6A750A81CA7E6B2C /* SwiftGeoCombine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A179D5AD1003798D333A359D1A302FC /* SwiftGeoCombine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF311AD65AC43989D04D77E5EA7CC9A7 /* Pods-SwiftGeoCombine_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEDB29206CBFC1A72FF2859FBB27CBC /* Pods-SwiftGeoCombine_Tests-dummy.m */; };
+		DA6A8F369DD6ECCDFF4728C3A30965B9 /* Pods-SwiftGeoCombine_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 817B97939EBC2CD5D4EADBFFBB6EDFA5 /* Pods-SwiftGeoCombine_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2AF2A23A4180C36CB3DB0AD75016A5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3493B8B846B036953C80154A2963B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43EF9789C697060165DC566662473344;
+			remoteInfo = "Pods-SwiftGeoCombine_Example";
+		};
+		F631BAD997E034EA578A84272C55314D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0079A3A566C56B7A77691302928EC56A;
+			remoteInfo = SwiftGeoCombine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08178A4F390CCA24C87EAE4061EEE80C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		14374F49E3B64BBF510D8D83E4A7D8A1 /* Pods_SwiftGeoCombine_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGeoCombine_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3BF0EE195FE5F63ABBBFCF3EDA738433 /* SwiftGeoCombine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftGeoCombine.modulemap; sourceTree = "<group>"; };
+		3E158B472354218600A042A9 /* GeoReverseLookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeoReverseLookup.swift; path = SwiftGeoCombine/Classes/GeoReverseLookup.swift; sourceTree = "<group>"; };
+		3E158B49235421AE00A042A9 /* RuntimeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RuntimeError.swift; path = SwiftGeoCombine/Classes/RuntimeError.swift; sourceTree = "<group>"; };
+		3E158B4B2354247D00A042A9 /* GeoUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeoUtils.swift; path = SwiftGeoCombine/Classes/GeoUtils.swift; sourceTree = "<group>"; };
+		499F70C193BB61EA96ED00E993388263 /* Pods-SwiftGeoCombine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftGeoCombine_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		51266F25CC9C87A452C6A73E0721441A /* Pods-SwiftGeoCombine_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftGeoCombine_Tests-Info.plist"; sourceTree = "<group>"; };
+		5A179D5AD1003798D333A359D1A302FC /* SwiftGeoCombine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGeoCombine-umbrella.h"; sourceTree = "<group>"; };
+		62080484A24E697050A79D3EFE215C87 /* Pods-SwiftGeoCombine_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftGeoCombine_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BD7B6E04C60B625228E29667372BF27 /* Pods-SwiftGeoCombine_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftGeoCombine_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7766EB681066B59838C500408DDDC2E7 /* Pods-SwiftGeoCombine_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftGeoCombine_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		77764EC07634E92A478B2B2BFA0F16F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7F07FE644385998D2CE1A0693BC97317 /* Pods-SwiftGeoCombine_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftGeoCombine_Example-dummy.m"; sourceTree = "<group>"; };
+		817B97939EBC2CD5D4EADBFFBB6EDFA5 /* Pods-SwiftGeoCombine_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftGeoCombine_Example-umbrella.h"; sourceTree = "<group>"; };
+		848A2057BE9066E581A183871F7D5DA7 /* Pods-SwiftGeoCombine_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftGeoCombine_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		917A476E553C48E7D688097B0D37A086 /* SwiftGeoCombine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftGeoCombine-dummy.m"; sourceTree = "<group>"; };
+		9BEDE190F0687A0A5D187FA3A0BFDEF6 /* SwiftGeoCombine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftGeoCombine-Info.plist"; sourceTree = "<group>"; };
+		9D0AB4B1FAFF8394F25846DCDC7B25B2 /* Pods-SwiftGeoCombine_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftGeoCombine_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D0BE585C314C34039FB63F1EBB7BD54 /* SwiftGeoCombine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGeoCombine-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9950071E22757982328BF9DA7C4958E /* SwiftGeoCombine.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGeoCombine.xcconfig; sourceTree = "<group>"; };
+		AE598D9551493A27CF4DED5DF521A6E0 /* Pods-SwiftGeoCombine_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftGeoCombine_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3602FACB0B1FE10DD7A69F50965BC2C /* Pods-SwiftGeoCombine_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftGeoCombine_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B6306F8E57353087F37BC4405E5B859E /* Pods-SwiftGeoCombine_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftGeoCombine_Example.modulemap"; sourceTree = "<group>"; };
+		BB1EDDCCE23A0D531AD8A73A828E297D /* Pods-SwiftGeoCombine_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftGeoCombine_Example-Info.plist"; sourceTree = "<group>"; };
+		BDE884B1247E71833B0E33DC2D20879D /* SwiftGeoCombine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftGeoCombine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0768E7656AB1FE0C423FC1B59BD2568 /* GeoCurrentLocationLookup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeoCurrentLocationLookup.swift; path = SwiftGeoCombine/Classes/GeoCurrentLocationLookup.swift; sourceTree = "<group>"; };
+		D472A658D4F75A1F5C7ABAC269E85DF9 /* Pods-SwiftGeoCombine_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftGeoCombine_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DDEDB29206CBFC1A72FF2859FBB27CBC /* Pods-SwiftGeoCombine_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftGeoCombine_Tests-dummy.m"; sourceTree = "<group>"; };
+		E0E3E4D10BCBB81D1DD3764CF993A06B /* Pods_SwiftGeoCombine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGeoCombine_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4291FC7C88BABB4C60A8E4FE0123F52 /* Pods-SwiftGeoCombine_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftGeoCombine_Tests.modulemap"; sourceTree = "<group>"; };
+		E86E44600574B834F811B0CA4599FFBC /* SwiftGeoCombine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftGeoCombine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED2233BAB75C9D20D70B14103A01EB5C /* Pods-SwiftGeoCombine_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftGeoCombine_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54F8C0505A1CACD9C0B78CDAD5DEDECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AF2A23A4180C36CB3DB0AD75016A5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E179CA54874BDCA451D6DFCBE712EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85016E8685164C954F8E2F29C040FB55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9781504F988111D5620F30F8DD3CA91C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1E08BBCA763864A8B5A7D71C3172EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B830D33A0F71C0603FDD55C2172AFC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E05D7D67418F2DDEF928DC9DB346AADE /* Pods-SwiftGeoCombine_Example */,
+				FAFC71F2E06121A9F4680AC8392B4E5E /* Pods-SwiftGeoCombine_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		545775C8AF3A7F564911D5BA209563B8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				839C04C3D9E635DAFCBD50058B4369C4 /* SwiftGeoCombine */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		839C04C3D9E635DAFCBD50058B4369C4 /* SwiftGeoCombine */ = {
+			isa = PBXGroup;
+			children = (
+				3E158B4B2354247D00A042A9 /* GeoUtils.swift */,
+				3E158B49235421AE00A042A9 /* RuntimeError.swift */,
+				3E158B472354218600A042A9 /* GeoReverseLookup.swift */,
+				C0768E7656AB1FE0C423FC1B59BD2568 /* GeoCurrentLocationLookup.swift */,
+				FCF2E5FE6F4D893A3497B75873FA156F /* Pod */,
+				C8C3EC27861F580D523C9EA6975D75F3 /* Support Files */,
+			);
+			name = SwiftGeoCombine;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C8C3EC27861F580D523C9EA6975D75F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BF0EE195FE5F63ABBBFCF3EDA738433 /* SwiftGeoCombine.modulemap */,
+				A9950071E22757982328BF9DA7C4958E /* SwiftGeoCombine.xcconfig */,
+				917A476E553C48E7D688097B0D37A086 /* SwiftGeoCombine-dummy.m */,
+				9BEDE190F0687A0A5D187FA3A0BFDEF6 /* SwiftGeoCombine-Info.plist */,
+				9D0BE585C314C34039FB63F1EBB7BD54 /* SwiftGeoCombine-prefix.pch */,
+				5A179D5AD1003798D333A359D1A302FC /* SwiftGeoCombine-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftGeoCombine";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				545775C8AF3A7F564911D5BA209563B8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E098DD585352CF1AC2B2AC5DAB38F3F8 /* Products */,
+				15B830D33A0F71C0603FDD55C2172AFC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E05D7D67418F2DDEF928DC9DB346AADE /* Pods-SwiftGeoCombine_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B6306F8E57353087F37BC4405E5B859E /* Pods-SwiftGeoCombine_Example.modulemap */,
+				ED2233BAB75C9D20D70B14103A01EB5C /* Pods-SwiftGeoCombine_Example-acknowledgements.markdown */,
+				AE598D9551493A27CF4DED5DF521A6E0 /* Pods-SwiftGeoCombine_Example-acknowledgements.plist */,
+				7F07FE644385998D2CE1A0693BC97317 /* Pods-SwiftGeoCombine_Example-dummy.m */,
+				6BD7B6E04C60B625228E29667372BF27 /* Pods-SwiftGeoCombine_Example-frameworks.sh */,
+				BB1EDDCCE23A0D531AD8A73A828E297D /* Pods-SwiftGeoCombine_Example-Info.plist */,
+				817B97939EBC2CD5D4EADBFFBB6EDFA5 /* Pods-SwiftGeoCombine_Example-umbrella.h */,
+				D472A658D4F75A1F5C7ABAC269E85DF9 /* Pods-SwiftGeoCombine_Example.debug.xcconfig */,
+				B3602FACB0B1FE10DD7A69F50965BC2C /* Pods-SwiftGeoCombine_Example.release.xcconfig */,
+			);
+			name = "Pods-SwiftGeoCombine_Example";
+			path = "Target Support Files/Pods-SwiftGeoCombine_Example";
+			sourceTree = "<group>";
+		};
+		E098DD585352CF1AC2B2AC5DAB38F3F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14374F49E3B64BBF510D8D83E4A7D8A1 /* Pods_SwiftGeoCombine_Example.framework */,
+				E0E3E4D10BCBB81D1DD3764CF993A06B /* Pods_SwiftGeoCombine_Tests.framework */,
+				BDE884B1247E71833B0E33DC2D20879D /* SwiftGeoCombine.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFC71F2E06121A9F4680AC8392B4E5E /* Pods-SwiftGeoCombine_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E4291FC7C88BABB4C60A8E4FE0123F52 /* Pods-SwiftGeoCombine_Tests.modulemap */,
+				848A2057BE9066E581A183871F7D5DA7 /* Pods-SwiftGeoCombine_Tests-acknowledgements.markdown */,
+				7766EB681066B59838C500408DDDC2E7 /* Pods-SwiftGeoCombine_Tests-acknowledgements.plist */,
+				DDEDB29206CBFC1A72FF2859FBB27CBC /* Pods-SwiftGeoCombine_Tests-dummy.m */,
+				51266F25CC9C87A452C6A73E0721441A /* Pods-SwiftGeoCombine_Tests-Info.plist */,
+				9D0AB4B1FAFF8394F25846DCDC7B25B2 /* Pods-SwiftGeoCombine_Tests-umbrella.h */,
+				62080484A24E697050A79D3EFE215C87 /* Pods-SwiftGeoCombine_Tests.debug.xcconfig */,
+				499F70C193BB61EA96ED00E993388263 /* Pods-SwiftGeoCombine_Tests.release.xcconfig */,
+			);
+			name = "Pods-SwiftGeoCombine_Tests";
+			path = "Target Support Files/Pods-SwiftGeoCombine_Tests";
+			sourceTree = "<group>";
+		};
+		FCF2E5FE6F4D893A3497B75873FA156F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				08178A4F390CCA24C87EAE4061EEE80C /* LICENSE */,
+				77764EC07634E92A478B2B2BFA0F16F0 /* README.md */,
+				E86E44600574B834F811B0CA4599FFBC /* SwiftGeoCombine.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ACD82BEA92587007300CE7AE2C38C34A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6A8F369DD6ECCDFF4728C3A30965B9 /* Pods-SwiftGeoCombine_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBF8534C2B43A9C4AB2BE481437D151 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB11802F5BA438125A6F85EC7C4EFB7 /* Pods-SwiftGeoCombine_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F009B82711AB9E97E02A5A6477EA3CAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D0B2B8553B516A6A750A81CA7E6B2C /* SwiftGeoCombine-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0079A3A566C56B7A77691302928EC56A /* SwiftGeoCombine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02EF35E3EF2FD3AE7F10EF0C39A3C819 /* Build configuration list for PBXNativeTarget "SwiftGeoCombine" */;
+			buildPhases = (
+				F009B82711AB9E97E02A5A6477EA3CAC /* Headers */,
+				54AF9592987A731B8FE047248FB71CB2 /* Sources */,
+				54F8C0505A1CACD9C0B78CDAD5DEDECB /* Frameworks */,
+				0D6B47EC8E40E8F490462BD8D1D7A98E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftGeoCombine;
+			productName = SwiftGeoCombine;
+			productReference = BDE884B1247E71833B0E33DC2D20879D /* SwiftGeoCombine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43EF9789C697060165DC566662473344 /* Pods-SwiftGeoCombine_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA1C36F441B6B26F784AE9DD02A659D /* Build configuration list for PBXNativeTarget "Pods-SwiftGeoCombine_Example" */;
+			buildPhases = (
+				ACD82BEA92587007300CE7AE2C38C34A /* Headers */,
+				A4BA5A4D91F096DA1988A3F1A9D15EFF /* Sources */,
+				7E179CA54874BDCA451D6DFCBE712EBB /* Frameworks */,
+				2303557A478946161C2CE860DF6CA4D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD0F3295C589D528C77BB32FA10E0577 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftGeoCombine_Example";
+			productName = "Pods-SwiftGeoCombine_Example";
+			productReference = 14374F49E3B64BBF510D8D83E4A7D8A1 /* Pods_SwiftGeoCombine_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A30AF37CF425CEF5A41F373F2FCF46ED /* Pods-SwiftGeoCombine_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17B01705E2BC330256A536068334162 /* Build configuration list for PBXNativeTarget "Pods-SwiftGeoCombine_Tests" */;
+			buildPhases = (
+				CFBF8534C2B43A9C4AB2BE481437D151 /* Headers */,
+				1908BD912ED681C764E3B63014E807F1 /* Sources */,
+				9781504F988111D5620F30F8DD3CA91C /* Frameworks */,
+				AD3ED2F8C0E4A189831B315B8A9E6411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC157A3B43151F0AAD31CE3A0A362AAB /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftGeoCombine_Tests";
+			productName = "Pods-SwiftGeoCombine_Tests";
+			productReference = E0E3E4D10BCBB81D1DD3764CF993A06B /* Pods_SwiftGeoCombine_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					0079A3A566C56B7A77691302928EC56A = {
+						LastSwiftMigration = 1110;
+					};
+					43EF9789C697060165DC566662473344 = {
+						LastSwiftMigration = 1110;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E098DD585352CF1AC2B2AC5DAB38F3F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43EF9789C697060165DC566662473344 /* Pods-SwiftGeoCombine_Example */,
+				A30AF37CF425CEF5A41F373F2FCF46ED /* Pods-SwiftGeoCombine_Tests */,
+				0079A3A566C56B7A77691302928EC56A /* SwiftGeoCombine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D6B47EC8E40E8F490462BD8D1D7A98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2303557A478946161C2CE860DF6CA4D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3ED2F8C0E4A189831B315B8A9E6411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1908BD912ED681C764E3B63014E807F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF311AD65AC43989D04D77E5EA7CC9A7 /* Pods-SwiftGeoCombine_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AF9592987A731B8FE047248FB71CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E158B4C2354247D00A042A9 /* GeoUtils.swift in Sources */,
+				491C507CA1A7F62C37D5C645E2B6621A /* GeoCurrentLocationLookup.swift in Sources */,
+				3E158B482354218600A042A9 /* GeoReverseLookup.swift in Sources */,
+				05C7CA806A93930B663DCBA629E52522 /* SwiftGeoCombine-dummy.m in Sources */,
+				3E158B4A235421AE00A042A9 /* RuntimeError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BA5A4D91F096DA1988A3F1A9D15EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7327DE35F190DBADFF8C8F39CF8469C9 /* Pods-SwiftGeoCombine_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD0F3295C589D528C77BB32FA10E0577 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGeoCombine;
+			target = 0079A3A566C56B7A77691302928EC56A /* SwiftGeoCombine */;
+			targetProxy = F631BAD997E034EA578A84272C55314D /* PBXContainerItemProxy */;
+		};
+		DC157A3B43151F0AAD31CE3A0A362AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftGeoCombine_Example";
+			target = 43EF9789C697060165DC566662473344 /* Pods-SwiftGeoCombine_Example */;
+			targetProxy = E3493B8B846B036953C80154A2963B5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45036DF8370EE5AAA577B3CB536721B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9950071E22757982328BF9DA7C4958E /* SwiftGeoCombine.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGeoCombine/SwiftGeoCombine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGeoCombine/SwiftGeoCombine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftGeoCombine/SwiftGeoCombine.modulemap";
+				PRODUCT_MODULE_NAME = SwiftGeoCombine;
+				PRODUCT_NAME = SwiftGeoCombine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49BA18F1C25C585230787113A0FC3020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9950071E22757982328BF9DA7C4958E /* SwiftGeoCombine.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGeoCombine/SwiftGeoCombine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGeoCombine/SwiftGeoCombine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftGeoCombine/SwiftGeoCombine.modulemap";
+				PRODUCT_MODULE_NAME = SwiftGeoCombine;
+				PRODUCT_NAME = SwiftGeoCombine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E9B4E2438A020322432F74347F255F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3602FACB0B1FE10DD7A69F50965BC2C /* Pods-SwiftGeoCombine_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftGeoCombine_Example/Pods-SwiftGeoCombine_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftGeoCombine_Example/Pods-SwiftGeoCombine_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A34DC149A65082DBC07FDE1013ECC7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499F70C193BB61EA96ED00E993388263 /* Pods-SwiftGeoCombine_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftGeoCombine_Tests/Pods-SwiftGeoCombine_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftGeoCombine_Tests/Pods-SwiftGeoCombine_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CCF53E837CCA83C382AE863218E12ECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D472A658D4F75A1F5C7ABAC269E85DF9 /* Pods-SwiftGeoCombine_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftGeoCombine_Example/Pods-SwiftGeoCombine_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftGeoCombine_Example/Pods-SwiftGeoCombine_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC0131AF3F8DA80A1ADBDE72DA79DD95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62080484A24E697050A79D3EFE215C87 /* Pods-SwiftGeoCombine_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftGeoCombine_Tests/Pods-SwiftGeoCombine_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftGeoCombine_Tests/Pods-SwiftGeoCombine_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02EF35E3EF2FD3AE7F10EF0C39A3C819 /* Build configuration list for PBXNativeTarget "SwiftGeoCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BA18F1C25C585230787113A0FC3020 /* Debug */,
+				45036DF8370EE5AAA577B3CB536721B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DA1C36F441B6B26F784AE9DD02A659D /* Build configuration list for PBXNativeTarget "Pods-SwiftGeoCombine_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF53E837CCA83C382AE863218E12ECE /* Debug */,
+				7E9B4E2438A020322432F74347F255F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17B01705E2BC330256A536068334162 /* Build configuration list for PBXNativeTarget "Pods-SwiftGeoCombine_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0131AF3F8DA80A1ADBDE72DA79DD95 /* Debug */,
+				9A34DC149A65082DBC07FDE1013ECC7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

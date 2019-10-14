@@ -1,0 +1,6 @@
+framework module SwiftGeoCombine {
+  umbrella header "SwiftGeoCombine-umbrella.h"
+
+  export *
+  module * { export * }
+}
